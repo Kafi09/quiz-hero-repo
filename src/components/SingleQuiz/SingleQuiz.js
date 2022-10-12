@@ -1,11 +1,11 @@
 import React from 'react';
 import './SingleQuiz.css'
 
-const SingleQuiz = ({option}) => {
+const SingleQuiz = ({option, btnHandler}) => {
     
     return (
         <div>
-            <div className='opt-con'>
+            <div onClick={(e)=>btnHandler(e.target.innerText)} className='opt-con'>
                 {option}
             </div>
         </div>
