@@ -11,7 +11,7 @@ const Quizzz = ({ quizzz }) => {
             <h2>{question}</h2>
             <div>
                 {
-                    options.map(option => <SingleQuiz option={option}></SingleQuiz> )
+                    options.map(option => <SingleQuiz  option={option}></SingleQuiz> )
                 }
             </div>
         </div>
